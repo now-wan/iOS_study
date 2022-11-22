@@ -1,24 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Chat List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChatListViewController" id="BYZ-38-t0r" customClass="ChatListViewController" customModule="ChatList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="TqW-VL-Rzf">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xyv-sh-33j">
+                                    <size key="itemSize" width="393" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChatListCollectionViewCell" id="HvS-Lp-cTH" customClass="ChatListCollectionViewCell" customModule="ChatList" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="o3A-O6-nTc">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DHu-JC-r65">
+                                                    <rect key="frame" x="16" y="24" width="80" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="D1z-cq-P9a"/>
+                                                        <constraint firstAttribute="width" constant="80" id="kaQ-Fo-Px0"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="이름" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-xW-BXk">
+                                                    <rect key="frame" x="115.99999999999999" y="24" width="38.333333333333329" height="26.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="대화 내용" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYC-K2-hQq">
+                                                    <rect key="frame" x="116.00000000000001" y="55.333333333333336" width="59.666666666666671" height="19.333333333333336"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="날짜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOG-Gu-SQ1">
+                                                    <rect key="frame" x="349" y="54.333333333333336" width="28" height="19.333333333333336"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hEm-xW-BXk" firstAttribute="leading" secondItem="DHu-JC-r65" secondAttribute="trailing" constant="20" id="2Mf-5B-FQx"/>
+                                                <constraint firstItem="DHu-JC-r65" firstAttribute="centerY" secondItem="o3A-O6-nTc" secondAttribute="centerY" id="LwD-gy-NfC"/>
+                                                <constraint firstAttribute="trailing" secondItem="FOG-Gu-SQ1" secondAttribute="trailing" constant="16" id="MGv-6S-TeG"/>
+                                                <constraint firstItem="mYC-K2-hQq" firstAttribute="top" secondItem="hEm-xW-BXk" secondAttribute="bottom" constant="5" id="MNp-bE-XRn"/>
+                                                <constraint firstItem="hEm-xW-BXk" firstAttribute="top" secondItem="DHu-JC-r65" secondAttribute="top" id="SwT-ic-GXC"/>
+                                                <constraint firstItem="FOG-Gu-SQ1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mYC-K2-hQq" secondAttribute="trailing" constant="10" id="ToJ-9g-TXh"/>
+                                                <constraint firstItem="DHu-JC-r65" firstAttribute="leading" secondItem="o3A-O6-nTc" secondAttribute="leading" constant="16" id="VgH-ZI-yEL"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hEm-xW-BXk" secondAttribute="trailing" constant="20" symbolic="YES" id="dva-DR-IKx"/>
+                                                <constraint firstItem="mYC-K2-hQq" firstAttribute="leading" secondItem="hEm-xW-BXk" secondAttribute="leading" id="hw2-m4-UeL"/>
+                                                <constraint firstItem="FOG-Gu-SQ1" firstAttribute="centerY" secondItem="o3A-O6-nTc" secondAttribute="centerY" id="pOz-yH-iSx"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="393" height="128"/>
+                                        <connections>
+                                            <outlet property="chatLabel" destination="mYC-K2-hQq" id="4bH-iX-TnG"/>
+                                            <outlet property="dateLabel" destination="FOG-Gu-SQ1" id="X95-ZH-GvH"/>
+                                            <outlet property="nameLabel" destination="hEm-xW-BXk" id="f8l-JJ-Oop"/>
+                                            <outlet property="thumbnail" destination="DHu-JC-r65" id="VgY-Xu-7PD"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TqW-VL-Rzf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0W7-Dk-mwg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TqW-VL-Rzf" secondAttribute="trailing" id="Pvk-ga-ag2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TqW-VL-Rzf" secondAttribute="bottom" id="hm1-3I-pzl"/>
+                            <constraint firstItem="TqW-VL-Rzf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pqX-f7-Imx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="TqW-VL-Rzf" id="Jr7-yu-74D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="75.572519083969468" y="-2.1126760563380285"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
