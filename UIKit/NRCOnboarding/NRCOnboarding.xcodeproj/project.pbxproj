@@ -17,6 +17,7 @@
 		22B648AA292E367E004FFE87 /* NRCOnboardingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B648A9292E367E004FFE87 /* NRCOnboardingUITestsLaunchTests.swift */; };
 		22B648B7292E370E004FFE87 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B648B6292E370E004FFE87 /* OnBoardingViewController.swift */; };
 		22B648B9292E3750004FFE87 /* OnboardingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B648B8292E3750004FFE87 /* OnboardingMessage.swift */; };
+		22F5762D292F475D00DF502D /* OnBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5762C292F475D00DF502D /* OnBoardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		22B648A9292E367E004FFE87 /* NRCOnboardingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCOnboardingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22B648B6292E370E004FFE87 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		22B648B8292E3750004FFE87 /* OnboardingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMessage.swift; sourceTree = "<group>"; };
+		22F5762C292F475D00DF502D /* OnBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				22B64886292E367D004FFE87 /* AppDelegate.swift */,
 				22B64888292E367D004FFE87 /* SceneDelegate.swift */,
 				22B6488C292E367D004FFE87 /* Main.storyboard */,
+				22F5762C292F475D00DF502D /* OnBoardCell.swift */,
 				22B648B6292E370E004FFE87 /* OnBoardingViewController.swift */,
 				22B648B8292E3750004FFE87 /* OnboardingMessage.swift */,
 				22B6488F292E367E004FFE87 /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			files = (
 				22B648B7292E370E004FFE87 /* OnBoardingViewController.swift in Sources */,
 				22B64887292E367D004FFE87 /* AppDelegate.swift in Sources */,
+				22F5762D292F475D00DF502D /* OnBoardCell.swift in Sources */,
 				22B648B9292E3750004FFE87 /* OnboardingMessage.swift in Sources */,
 				22B64889292E367D004FFE87 /* SceneDelegate.swift in Sources */,
 			);
