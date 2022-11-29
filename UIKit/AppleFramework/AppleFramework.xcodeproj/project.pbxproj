@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222142C0293601E600FBF557 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222142BF293601E600FBF557 /* Detail.storyboard */; };
+		222142C22936022000FBF557 /* FrameworkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222142C12936022000FBF557 /* FrameworkDetailViewController.swift */; };
 		22A5EFAE292CA18B00AC9912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5EFAD292CA18B00AC9912 /* AppDelegate.swift */; };
 		22A5EFB0292CA18B00AC9912 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5EFAF292CA18B00AC9912 /* SceneDelegate.swift */; };
 		22A5EFB5292CA18B00AC9912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A5EFB3292CA18B00AC9912 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		222142BF293601E600FBF557 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		222142C12936022000FBF557 /* FrameworkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewController.swift; sourceTree = "<group>"; };
 		22A5EFAA292CA18B00AC9912 /* AppleFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A5EFAD292CA18B00AC9912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A5EFAF292CA18B00AC9912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				22A5EFAD292CA18B00AC9912 /* AppDelegate.swift */,
 				22A5EFAF292CA18B00AC9912 /* SceneDelegate.swift */,
 				22A5EFB3292CA18B00AC9912 /* Main.storyboard */,
+				222142BF293601E600FBF557 /* Detail.storyboard */,
+				222142C12936022000FBF557 /* FrameworkDetailViewController.swift */,
 				22A5EFE1292CA76C00AC9912 /* FrameworkCell.swift */,
 				22A5EFDF292CA2F100AC9912 /* FrameworkListViewController.swift */,
 				22A5EFDD292CA22600AC9912 /* FrameworkData.swift */,
@@ -240,6 +246,7 @@
 				22A5EFBA292CA18C00AC9912 /* LaunchScreen.storyboard in Resources */,
 				22A5EFB7292CA18C00AC9912 /* Assets.xcassets in Resources */,
 				22A5EFB5292CA18B00AC9912 /* Main.storyboard in Resources */,
+				222142C0293601E600FBF557 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +275,7 @@
 				22A5EFDE292CA22600AC9912 /* FrameworkData.swift in Sources */,
 				22A5EFB0292CA18B00AC9912 /* SceneDelegate.swift in Sources */,
 				22A5EFE2292CA76C00AC9912 /* FrameworkCell.swift in Sources */,
+				222142C22936022000FBF557 /* FrameworkDetailViewController.swift in Sources */,
 				22A5EFE0292CA2F100AC9912 /* FrameworkListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

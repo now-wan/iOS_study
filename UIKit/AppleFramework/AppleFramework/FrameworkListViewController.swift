@@ -57,7 +57,10 @@ class FrameworkListViewController: UIViewController {
 extension FrameworkListViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let framework = frameworkList[indexPath.item]
-        print("\(framework.name) 이(가) 눌렸다!!")
+        let storyboard = UIStoryboard(name: "Detail", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "FrameworkDetailViewController") as! FrameworkDetailViewController
+        vc.frameworkData = framework
+        present(vc, animated: true)
     }
 }
 
