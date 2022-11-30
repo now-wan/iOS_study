@@ -9,13 +9,12 @@ import UIKit
 
 class FocusViewController: UIViewController {
 
+
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var changeButton: UIButton!
     
     var curated: Bool = false
-    
     var items = Focus.list
-    
     enum Section {
         case main
     }
@@ -25,6 +24,7 @@ class FocusViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        collectionView.delegate = self
         changeButton.layer.cornerRadius = 10
         
         datasource = UICollectionViewDiffableDataSource<Section, Item>(collectionView: collectionView, cellProvider: { collectionView, indexPath, item in
@@ -32,7 +32,6 @@ class FocusViewController: UIViewController {
                 return nil
             }
             cell.configure(item)
-            
             return cell
         })
         
@@ -83,4 +82,14 @@ class FocusViewController: UIViewController {
     }
 }
 
-
+extension FocusViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let item = items[indexPath.item]
+        let storyboard = UIStoryboard(name: "Detail", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        vc.modalPresentationStyle = .fullScreen
+        vc.title = item.title
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
+}

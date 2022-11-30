@@ -18,6 +18,11 @@
 		2218DCA6293340C4000C5511 /* Focus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2218DCA5293340C4000C5511 /* Focus.swift */; };
 		2218DCAA2933579A000C5511 /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2218DCA92933579A000C5511 /* FocusViewController.swift */; };
 		2218DCAC293357BF000C5511 /* FocusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2218DCAB293357BF000C5511 /* FocusCell.swift */; };
+		222142C42936192400FBF557 /* QuickFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222142C32936192400FBF557 /* QuickFocus.swift */; };
+		222142C629361A0500FBF557 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222142C529361A0500FBF557 /* Detail.storyboard */; };
+		222142C829361AAF00FBF557 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222142C729361AAF00FBF557 /* DetailViewController.swift */; };
+		222142CA29361B5700FBF557 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222142C929361B5700FBF557 /* DetailCell.swift */; };
+		222142CC2936344700FBF557 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222142CB2936344700FBF557 /* DetailHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		2218DCA5293340C4000C5511 /* Focus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus.swift; sourceTree = "<group>"; };
 		2218DCA92933579A000C5511 /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		2218DCAB293357BF000C5511 /* FocusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCell.swift; sourceTree = "<group>"; };
+		222142C32936192400FBF557 /* QuickFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFocus.swift; sourceTree = "<group>"; };
+		222142C529361A0500FBF557 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		222142C729361AAF00FBF557 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		222142C929361B5700FBF557 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		222142CB2936344700FBF557 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +114,16 @@
 			isa = PBXGroup;
 			children = (
 				2218DCA5293340C4000C5511 /* Focus.swift */,
+				222142C32936192400FBF557 /* QuickFocus.swift */,
 				2218DC7329334023000C5511 /* AppDelegate.swift */,
 				2218DC7529334023000C5511 /* SceneDelegate.swift */,
 				2218DC7929334023000C5511 /* Main.storyboard */,
-				2218DCAB293357BF000C5511 /* FocusCell.swift */,
 				2218DCA92933579A000C5511 /* FocusViewController.swift */,
+				2218DCAB293357BF000C5511 /* FocusCell.swift */,
+				222142C529361A0500FBF557 /* Detail.storyboard */,
+				222142CB2936344700FBF557 /* DetailHeaderView.swift */,
+				222142C729361AAF00FBF557 /* DetailViewController.swift */,
+				222142C929361B5700FBF557 /* DetailCell.swift */,
 				2218DC7C29334024000C5511 /* Assets.xcassets */,
 				2218DC7E29334024000C5511 /* LaunchScreen.storyboard */,
 				2218DC8129334024000C5511 /* Info.plist */,
@@ -240,6 +255,7 @@
 				2218DC8029334024000C5511 /* LaunchScreen.storyboard in Resources */,
 				2218DC7D29334024000C5511 /* Assets.xcassets in Resources */,
 				2218DC7B29334023000C5511 /* Main.storyboard in Resources */,
+				222142C629361A0500FBF557 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222142C42936192400FBF557 /* QuickFocus.swift in Sources */,
 				2218DC7429334023000C5511 /* AppDelegate.swift in Sources */,
 				2218DCA6293340C4000C5511 /* Focus.swift in Sources */,
 				2218DCAC293357BF000C5511 /* FocusCell.swift in Sources */,
 				2218DC7629334023000C5511 /* SceneDelegate.swift in Sources */,
 				2218DCAA2933579A000C5511 /* FocusViewController.swift in Sources */,
+				222142CA29361B5700FBF557 /* DetailCell.swift in Sources */,
+				222142C829361AAF00FBF557 /* DetailViewController.swift in Sources */,
+				222142CC2936344700FBF557 /* DetailHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
