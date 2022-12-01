@@ -25,6 +25,7 @@ class DetailViewController: UIViewController {
             }
         }
     }
+    
     typealias Item = QuickFocus
     var datasource: UICollectionViewDiffableDataSource<Section, Item>!
     
