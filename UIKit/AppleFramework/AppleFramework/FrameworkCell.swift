@@ -23,3 +23,4 @@ class FrameworkCell: UICollectionViewCell {
         nameLabel.text = framework.name
     }
 }
+

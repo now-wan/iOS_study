@@ -97,3 +97,4 @@ extension AppleFramework {
                   description: "Easily build widgets and make them available across iOS, iPadOS, and macOS using the WidgetKit framework and the widget API for SwiftUI. Widgets come in multiple sizes, and users can visit the widget gallery to search, preview sizes, and place them anywhere on the Home screen to access important details at a glance. They can also add Smart Stacks — sets of widgets that use on-device intelligence to surface the right widget at the right moment, based on factors like time, location, and activity.")
     ]
 }
+
