@@ -16,6 +16,7 @@
 		229F95D5293E0B8200F31DF4 /* GithubUserSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95D4293E0B8200F31DF4 /* GithubUserSearchTests.swift */; };
 		229F95DF293E0B8200F31DF4 /* GithubUserSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95DE293E0B8200F31DF4 /* GithubUserSearchUITests.swift */; };
 		229F95E1293E0B8200F31DF4 /* GithubUserSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95E0293E0B8200F31DF4 /* GithubUserSearchUITestsLaunchTests.swift */; };
+		229F95EE293F579300F31DF4 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95ED293F579300F31DF4 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		229F95DA293E0B8200F31DF4 /* GithubUserSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUserSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229F95DE293E0B8200F31DF4 /* GithubUserSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserSearchUITests.swift; sourceTree = "<group>"; };
 		229F95E0293E0B8200F31DF4 /* GithubUserSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		229F95ED293F579300F31DF4 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				229F95BF293E0B8000F31DF4 /* SceneDelegate.swift */,
 				229F95C1293E0B8000F31DF4 /* ViewController.swift */,
 				229F95C3293E0B8000F31DF4 /* Main.storyboard */,
+				229F95ED293F579300F31DF4 /* SearchResult.swift */,
 				229F95C6293E0B8200F31DF4 /* Assets.xcassets */,
 				229F95C8293E0B8200F31DF4 /* LaunchScreen.storyboard */,
 				229F95CB293E0B8200F31DF4 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				229F95C2293E0B8000F31DF4 /* ViewController.swift in Sources */,
 				229F95BE293E0B8000F31DF4 /* AppDelegate.swift in Sources */,
+				229F95EE293F579300F31DF4 /* SearchResult.swift in Sources */,
 				229F95C0293E0B8000F31DF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
