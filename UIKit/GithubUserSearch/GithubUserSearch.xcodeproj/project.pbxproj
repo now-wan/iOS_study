@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22645D642940951E009EC638 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22645D632940951E009EC638 /* SearchResult.swift */; };
+		22645D6629446599009EC638 /* SearchUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22645D6529446599009EC638 /* SearchUserResponse.swift */; };
 		229F95BE293E0B8000F31DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95BD293E0B8000F31DF4 /* AppDelegate.swift */; };
 		229F95C0293E0B8000F31DF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95BF293E0B8000F31DF4 /* SceneDelegate.swift */; };
 		229F95C2293E0B8000F31DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95C1293E0B8000F31DF4 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		22645D632940951E009EC638 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchResult.swift; path = Model/SearchResult.swift; sourceTree = "<group>"; };
+		22645D6529446599009EC638 /* SearchUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchUserResponse.swift; path = Model/SearchUserResponse.swift; sourceTree = "<group>"; };
 		229F95BA293E0B8000F31DF4 /* GithubUserSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUserSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229F95BD293E0B8000F31DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229F95BF293E0B8000F31DF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				229F95C1293E0B8000F31DF4 /* ViewController.swift */,
 				229F95C3293E0B8000F31DF4 /* Main.storyboard */,
 				22645D632940951E009EC638 /* SearchResult.swift */,
+				22645D6529446599009EC638 /* SearchUserResponse.swift */,
 				229F95C6293E0B8200F31DF4 /* Assets.xcassets */,
 				229F95C8293E0B8200F31DF4 /* LaunchScreen.storyboard */,
 				229F95CB293E0B8200F31DF4 /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				229F95C2293E0B8000F31DF4 /* ViewController.swift in Sources */,
 				229F95BE293E0B8000F31DF4 /* AppDelegate.swift in Sources */,
+				22645D6629446599009EC638 /* SearchUserResponse.swift in Sources */,
 				22645D642940951E009EC638 /* SearchResult.swift in Sources */,
 				229F95C0293E0B8000F31DF4 /* SceneDelegate.swift in Sources */,
 			);
