@@ -12,6 +12,7 @@
 		22645D6829473328009EC638 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22645D6729473328009EC638 /* NetworkService.swift */; };
 		22645D6A294A1640009EC638 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22645D69294A1640009EC638 /* Resource.swift */; };
 		22645D6C294E100D009EC638 /* Publisher+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22645D6B294E100D009EC638 /* Publisher+Utils.swift */; };
+		22645D6E2951EE85009EC638 /* ResultCellswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22645D6D2951EE85009EC638 /* ResultCellswift.swift */; };
 		229F95BE293E0B8000F31DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95BD293E0B8000F31DF4 /* AppDelegate.swift */; };
 		229F95C0293E0B8000F31DF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95BF293E0B8000F31DF4 /* SceneDelegate.swift */; };
 		229F95C2293E0B8000F31DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95C1293E0B8000F31DF4 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		22645D6729473328009EC638 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = Network/NetworkService.swift; sourceTree = "<group>"; };
 		22645D69294A1640009EC638 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Network/Resource.swift; sourceTree = "<group>"; };
 		22645D6B294E100D009EC638 /* Publisher+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Publisher+Utils.swift"; path = "GithubUserSearch/Utils/Publisher+Utils.swift"; sourceTree = "<group>"; };
+		22645D6D2951EE85009EC638 /* ResultCellswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultCellswift.swift; path = GithubUserSearch/View/ResultCellswift.swift; sourceTree = "<group>"; };
 		229F95BA293E0B8000F31DF4 /* GithubUserSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUserSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229F95BD293E0B8000F31DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229F95BF293E0B8000F31DF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				22645D6B294E100D009EC638 /* Publisher+Utils.swift */,
+				22645D6D2951EE85009EC638 /* ResultCellswift.swift */,
 				229F95BC293E0B8000F31DF4 /* GithubUserSearch */,
 				229F95D3293E0B8200F31DF4 /* GithubUserSearchTests */,
 				229F95DD293E0B8200F31DF4 /* GithubUserSearchUITests */,
@@ -279,6 +282,7 @@
 				22645D6629446599009EC638 /* SearchUserResponse.swift in Sources */,
 				22645D642940951E009EC638 /* SearchResult.swift in Sources */,
 				22645D6829473328009EC638 /* NetworkService.swift in Sources */,
+				22645D6E2951EE85009EC638 /* ResultCellswift.swift in Sources */,
 				229F95C0293E0B8000F31DF4 /* SceneDelegate.swift in Sources */,
 				22645D6A294A1640009EC638 /* Resource.swift in Sources */,
 			);
