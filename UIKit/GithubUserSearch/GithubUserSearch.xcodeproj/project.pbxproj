@@ -22,6 +22,7 @@
 		229F95D5293E0B8200F31DF4 /* GithubUserSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95D4293E0B8200F31DF4 /* GithubUserSearchTests.swift */; };
 		229F95DF293E0B8200F31DF4 /* GithubUserSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95DE293E0B8200F31DF4 /* GithubUserSearchUITests.swift */; };
 		229F95E1293E0B8200F31DF4 /* GithubUserSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F95E0293E0B8200F31DF4 /* GithubUserSearchUITestsLaunchTests.swift */; };
+		22C0E5B829543F0E00CC77C8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5B729543F0E00CC77C8 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		229F95DA293E0B8200F31DF4 /* GithubUserSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUserSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229F95DE293E0B8200F31DF4 /* GithubUserSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserSearchUITests.swift; sourceTree = "<group>"; };
 		229F95E0293E0B8200F31DF4 /* GithubUserSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22C0E5B729543F0E00CC77C8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = GithubUserSearch/View/SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				22645D712952DE92009EC638 /* ResultCell.swift */,
+				22C0E5B729543F0E00CC77C8 /* SearchViewController.swift */,
 				22645D6B294E100D009EC638 /* Publisher+Utils.swift */,
 				229F95BC293E0B8000F31DF4 /* GithubUserSearch */,
 				229F95D3293E0B8200F31DF4 /* GithubUserSearchTests */,
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C0E5B829543F0E00CC77C8 /* SearchViewController.swift in Sources */,
 				229F95C2293E0B8000F31DF4 /* ViewController.swift in Sources */,
 				229F95BE293E0B8000F31DF4 /* AppDelegate.swift in Sources */,
 				22645D6C294E100D009EC638 /* Publisher+Utils.swift in Sources */,
