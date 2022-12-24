@@ -5,4 +5,14 @@
 //  Created by 이제완 on 2022/12/22.
 //
 
-import Foundation
+import UIKit
+import Combine
+
+class SearchViewController: UIViewController {
+    
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
