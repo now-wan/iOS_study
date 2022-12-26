@@ -16,6 +16,7 @@
 		22C0E5DD29587DC000CC77C8 /* GithubUserProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5DC29587DC000CC77C8 /* GithubUserProfileTests.swift */; };
 		22C0E5E729587DC000CC77C8 /* GithubUserProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5E629587DC000CC77C8 /* GithubUserProfileUITests.swift */; };
 		22C0E5E929587DC000CC77C8 /* GithubUserProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5E829587DC000CC77C8 /* GithubUserProfileUITestsLaunchTests.swift */; };
+		22C0E5F62959ED2000CC77C8 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5F52959ED2000CC77C8 /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		22C0E5E229587DC000CC77C8 /* GithubUserProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUserProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C0E5E629587DC000CC77C8 /* GithubUserProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserProfileUITests.swift; sourceTree = "<group>"; };
 		22C0E5E829587DC000CC77C8 /* GithubUserProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22C0E5F52959ED2000CC77C8 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = Model/UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				22C0E5C729587DBF00CC77C8 /* SceneDelegate.swift */,
 				22C0E5C929587DBF00CC77C8 /* ViewController.swift */,
 				22C0E5CB29587DBF00CC77C8 /* Main.storyboard */,
+				22C0E5F52959ED2000CC77C8 /* UserProfile.swift */,
 				22C0E5CE29587DBF00CC77C8 /* Assets.xcassets */,
 				22C0E5D029587DBF00CC77C8 /* LaunchScreen.storyboard */,
 				22C0E5D329587DBF00CC77C8 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C0E5F62959ED2000CC77C8 /* UserProfile.swift in Sources */,
 				22C0E5CA29587DBF00CC77C8 /* ViewController.swift in Sources */,
 				22C0E5C629587DBF00CC77C8 /* AppDelegate.swift in Sources */,
 				22C0E5C829587DBF00CC77C8 /* SceneDelegate.swift in Sources */,
