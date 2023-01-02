@@ -18,6 +18,7 @@
 		22C0E5E929587DC000CC77C8 /* GithubUserProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5E829587DC000CC77C8 /* GithubUserProfileUITestsLaunchTests.swift */; };
 		22C0E5F62959ED2000CC77C8 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5F52959ED2000CC77C8 /* UserProfile.swift */; };
 		22C0E5F829607B2B00CC77C8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5F729607B2B00CC77C8 /* NetworkService.swift */; };
+		22C0E5FA2962DD4C00CC77C8 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0E5F92962DD4C00CC77C8 /* Resource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		22C0E5E829587DC000CC77C8 /* GithubUserProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22C0E5F52959ED2000CC77C8 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = Model/UserProfile.swift; sourceTree = "<group>"; };
 		22C0E5F729607B2B00CC77C8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = Network/NetworkService.swift; sourceTree = "<group>"; };
+		22C0E5F92962DD4C00CC77C8 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Network/Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				22C0E5C929587DBF00CC77C8 /* ViewController.swift */,
 				22C0E5CB29587DBF00CC77C8 /* Main.storyboard */,
 				22C0E5F52959ED2000CC77C8 /* UserProfile.swift */,
+				22C0E5F92962DD4C00CC77C8 /* Resource.swift */,
 				22C0E5F729607B2B00CC77C8 /* NetworkService.swift */,
 				22C0E5CE29587DBF00CC77C8 /* Assets.xcassets */,
 				22C0E5D029587DBF00CC77C8 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 				22C0E5F829607B2B00CC77C8 /* NetworkService.swift in Sources */,
 				22C0E5F62959ED2000CC77C8 /* UserProfile.swift in Sources */,
 				22C0E5CA29587DBF00CC77C8 /* ViewController.swift in Sources */,
+				22C0E5FA2962DD4C00CC77C8 /* Resource.swift in Sources */,
 				22C0E5C629587DBF00CC77C8 /* AppDelegate.swift in Sources */,
 				22C0E5C829587DBF00CC77C8 /* SceneDelegate.swift in Sources */,
 			);
